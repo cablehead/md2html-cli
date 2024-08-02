@@ -1,0 +1,10 @@
+[package]
+name = "md2html-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pulldown-cmark = "0.11.0"
+
+[[bin]]
+name = "md2html"
